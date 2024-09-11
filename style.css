@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-image: url(images/background.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  font-size: 20px;
+}
+.lest-talk {
+  border: 1px solid #772bd9;
+  padding: 10px 25px;
+  color: #000;
+  transition: 0.5s ease;
+}
+.lest-talk:hover {
+  border: 1px solid #772bd9;
+  background: #772bd9;
+  color: #fff;
+}
+nav ul h1 {
+  font-size: 50px;
+}
+span {
+  color: #772bd9;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.contant {
+  padding: 250px 1000px 0 90px;
+}
+.contant h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.contant p {
+  margin-bottom: 80px;
+}
+.button {
+  margin-right: 20px;
+  border-radius: 15px;
+  border: 1px solid #772bd9;
+  background: #772bd9;
+  padding: 15px 35px;
+  color: #fff;
+  font-size: 20px;
+}
+.button2 {
+  margin-right: 20px;
+  border-radius: 15px;
+  border: 1px solid #772bd9;
+  background: transparent;
+  padding: 15px 35px;
+  color: #000;
+  font-size: 20px;
+  transition:0.5s ease;
+}
+.button2:hover {
+  margin-right: 20px;
+  border-radius: 15px;
+  border: 1px solid #772bd9;
+  background: #772bd9;
+  padding: 15px 35px;
+  color: #fff;
+  font-size: 20px;
+}
